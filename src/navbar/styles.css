@@ -1,0 +1,177 @@
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+.photoDiv {
+  position: absolute;
+  height: 100%;
+  width: 71.84%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 28.16%;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.unionIcon {
+  position: relative;
+  width: 22.52px;
+  height: 22.52px;
+}
+.sampleLogoDiv {
+  position: absolute;
+  top: 14px;
+  left: 80px;
+  width: 122.07px;
+  height: 32px;
+  font-size: 28.44px;
+  color: #5b4f64;
+  font-family: Comfortaa;
+}
+.aboutUs,
+.contactUSDiv {
+  position: absolute;
+  top: 21px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: inline-block;
+}
+.aboutUs {
+  text-decoration: none;
+  left: 241px;
+  color: inherit;
+}
+.contactUSDiv {
+  left: 330px;
+}
+.rectangleDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #5b4f64;
+  box-sizing: border-box;
+}
+.logInDiv {
+  position: absolute;
+  height: 45%;
+  width: 35.38%;
+  top: 27.5%;
+  right: 32.31%;
+  bottom: 27.5%;
+  left: 32.31%;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  font-family: Montserrat;
+  color: #5b4f64;
+  text-align: center;
+  display: inline-block;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 8px;
+  left: 1120px;
+  width: 130px;
+  height: 40px;
+  opacity: 1;
+}
+.button.animate,
+.rectangleButton.animate {
+  animation: 1s ease 0s 1 normal forwards shadow-drop-bottom;
+}
+.getAJob,
+.hireEmployeesDiv {
+  position: absolute;
+  top: 21px;
+  left: 434px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: inline-block;
+}
+.hireEmployeesDiv {
+  left: 526px;
+}
+.rectangleButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #5b4f64;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 6px;
+  opacity: 1;
+}
+.registerDiv {
+  position: absolute;
+  height: 45%;
+  width: 47.69%;
+  top: 27.5%;
+  right: 26.15%;
+  bottom: 27.5%;
+  left: 26.15%;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 8px;
+  left: 1261px;
+  width: 130px;
+  height: 40px;
+  opacity: 1;
+}
+.button1.animate {
+  animation: 1s ease 0s 1 normal forwards scale-down-center;
+}
+.navigationCDiv {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 10px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+  font-family: Montserrat;
+}
